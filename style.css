@@ -1,0 +1,101 @@
+:root{
+--Red-400: hsl(0, 100%, 74%); 
+--Green-400: hsl(154, 59%, 51%);
+--Purple-700: hsl(248, 32%, 49%);
+--Gray-900: hsl(249, 10%, 26%); 
+--Purple-350: hsl(246, 25%, 77%);
+--Font size: 16px;
+}
+*{
+	color: white;
+	font-family: sans-serif, "poppins";
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+justify-content: center;
+	background: var(--Red-400) url("images/bg-intro-desktop.png") no-repeat ;
+}
+.container-case{
+
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.left-case{
+	width: 600px;
+}
+.left-case h1{
+	font-size: 50px;
+}
+.left-case p{
+
+	font-size: 20px;
+}
+
+.right-case .min-header{
+	font-size: 20px;
+	text-align: center;
+	background: var(--Purple-700);
+	border-radius: 10px;
+	padding: 20px 60px;
+	width: 100%;
+}
+.form-content{
+	margin-top:20px;
+	padding: 20px;
+	background: white;
+	border-radius: 7px;
+}
+.label input{
+	margin-top: 25px;
+	color: black;
+  width: 100%;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+.label:nth-child(1) input{
+	margin-top: 10px;
+}
+.submit{
+	margin-top: 25px;
+ 	
+    width: 100%;
+
+}
+.submit button{
+	background: var(--Green-400);
+	font-weight: bold;
+	letter-spacing: 0.05px;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 15px;
+  outline: none;
+  border-radius: 7px;
+  border: none;
+  width: 100%;
+
+}
+form p{
+    margin-top: 10px;
+	text-align: center;
+	color: var(--Gray-900);
+	font-size:10px; 
+
+}
+
+form p b{
+	font-weight: bold;
+	color: var(--Red-400);
+}
